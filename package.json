@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "homepage": "https://keerthu7.github.io-Portfolio",
 
+=======
+  "homepage": "https://keerthu7.github.io/Portfolio"
+,
+>>>>>>> bb41c1baf694ec2c262e3f544aae87a835041852
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -25,6 +30,10 @@
     "predeploy": "npm run build",
 "deploy": "gh-pages -d build"
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> bb41c1baf694ec2c262e3f544aae87a835041852
   },
   "eslintConfig": {
     "extends": [
