@@ -4,7 +4,7 @@ import './footer.css';
 const footer = () => {
   return (
     <footer className='footer'>
-            Copyright © 2023 Keerthana Subramaniam. All rights reserved.
+            Copyright © 2025 Keerthana Subramaniam. All rights reserved.
     </footer>
   )
 }

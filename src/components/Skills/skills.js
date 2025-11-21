@@ -6,40 +6,81 @@ import AppDesign from '../../assets/app-design.png';
 
 const skills = () => {
   return (
-        <section id='skills'>
-            <span className='skillTitle'>What I do</span>
-            <span className='skillDesc'> I'm a dedicated and skilled programmer proficient in Java and full stack development with a fervent passion for continuous learning and exploration within the realm of technology. Eager to delve deeper into the technical world, with a strong desire to contribute as a programmer. Committed to honing my skills and embracing new challenges in the dynamic field of programming.</span>
-            <div className='skillBars'>
-                <div className='skillBar'>
-                    <img src={UIDesign} alt='UIDesign' className='skillBarImg'/>
-                    <div className='skillBarText'>
-                        <h2>UI /UX Design</h2>
-                        <p>Skilled in creating intuitive, user-centered designs that enhance user experience through clear and engaging interfaces.hellooooo, this is demo</p>
-                    </div>
-                </div>
-            </div>
+    <section id='skills'>
+      <span className='skillTitle'>What I Do</span>
+      <span className='skillDesc'>
+        I'm a dedicated and skilled programmer proficient in Java and full-stack development.
+        Passionate about continuous learning, exploring new technologies, and building efficient,
+        scalable solutions.
+      </span>
 
-            <div className='skillBars'>
-                <div className='skillBar'>
-                    <img src={WebDesign} alt='WebDesign' className='skillBarImg'/>
-                    <div className='skillBarText'>
-                    <h2>Java</h2>
-                    <p>Proficient in developing robust, object-oriented applications using Java for scalable and high-performance solutions.</p>
-                    </div>
-                </div>
-            </div>
+      {/* Java */}
+      <div className='skillBars'>
+        <div className='skillBar'>
+          <img src={WebDesign} alt='Java' className='skillBarImg' />
+          <div className='skillBarText'>
+            <h2>Java</h2>
+            <p>
+              Proficient in developing scalable, object-oriented applications using Java.
+            </p>
+          </div>
+        </div>
+      </div>
 
-            <div className='skillBars'>
-                <div className='skillBar'>
-                    <img src={AppDesign} alt='AppDesign' className='skillBarImg'/>
-                    <div className='skillBarText'>
-                    <h2>MERN Stack</h2>
-                    <p>Experienced in building full-stack web applications using MongoDB, Express.js, React, and Node.js for dynamic and responsive solutions.</p>
-                    </div>
-                </div>
-            </div>
-         </section>
-  )
-}
+      {/* SQL */}
+      <div className='skillBars'>
+        <div className='skillBar'>
+          <img src={UIDesign} alt='SQL' className='skillBarImg' />
+          <div className='skillBarText'>
+            <h2>SQL</h2>
+            <p>
+              Strong understanding of relational databases and writing efficient SQL queries.
+            </p>
+          </div>
+        </div>
+      </div>
 
-export default skills
+      {/* Node.js */}
+      <div className='skillBars'>
+        <div className='skillBar'>
+          <img src={AppDesign} alt='NodeJS' className='skillBarImg' />
+          <div className='skillBarText'>
+            <h2>Node.js</h2>
+            <p>
+              Skilled in building server-side applications, REST APIs, and backend logic using Node.js and Express.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* MongoDB */}
+      <div className='skillBars'>
+        <div className='skillBar'>
+          <img src={WebDesign} alt='MongoDB' className='skillBarImg' />
+          <div className='skillBarText'>
+            <h2>MongoDB</h2>
+            <p>
+              Experienced in designing NoSQL database structures and working with Mongoose for data modeling.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* MERN Stack */}
+      <div className='skillBars'>
+        <div className='skillBar'>
+          <img src={AppDesign} alt='AppDesign' className='skillBarImg' />
+          <div className='skillBarText'>
+            <h2>MERN Stack</h2>
+            <p>
+              Experienced in building complete full-stack applications using MongoDB, Express, React, and Node.js.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  );
+};
+
+export default skills;

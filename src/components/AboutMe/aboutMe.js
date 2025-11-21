@@ -36,7 +36,7 @@ const AboutMe = () => {
         <div className="info-group">
           <motion.p variants={fadeInVariant}><FaUser className="icon" /> <strong>First Name :</strong> Keerthana</motion.p>
           <motion.p variants={fadeInVariant}><FaUser className="icon" /> <strong>Last Name :</strong> Subramaniam</motion.p>
-          <motion.p variants={fadeInVariant}><FaUser className="icon" /> <strong>Age :</strong> 20 Years</motion.p>
+          <motion.p variants={fadeInVariant}><FaUser className="icon" /> <strong>Age :</strong> 21 Years</motion.p>
           <motion.p variants={fadeInVariant}><FaUser className="icon" /> <strong>Nationality :</strong> Indian</motion.p>
           <motion.p variants={fadeInVariant}><FaUser className="icon" /> <strong>Freelance :</strong> Available</motion.p>
         </div>
