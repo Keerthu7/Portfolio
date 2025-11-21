@@ -1,0 +1,63 @@
+/* Styling for the mini-projects container */
+.projects-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .projects-container h2 {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive grid layout for the project cards */
+  .projects-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .project-card {
+    background-color: rgb(50, 50, 50);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    max-width: 200px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .icon {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #4e89ae;
+  }
+  
+  .project-card h3 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 8px;
+  }
+  
+  .project-card p {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .projects-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

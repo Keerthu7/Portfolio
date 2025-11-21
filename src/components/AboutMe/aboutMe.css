@@ -1,0 +1,110 @@
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .aboutMe {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  .me{
+    color: yellow;
+  }
+  
+  .aboutMeDesc {
+    font-size: 1.1rem;
+    max-width: 51rem;
+    margin: 1rem auto 2rem;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 2rem 0 1rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .section-titlee {
+    font-size: 2.5rem;
+  }
+  
+  /* Personal Info and Skills Table Styles */
+  .personal-info, .skills-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 2rem;
+  }
+  
+  .info-group p, .skill-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  .icon {
+    color: yellow;
+    margin-right: 8px;
+  }
+  
+  /* Education Section Styles */
+  .education-info {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .education-item {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .skillBar {
+    display: flex;
+    margin: 0.5rem 0; 
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+    transition: transform 0.3s ease;
+  }
+  
+  .skillBarImg {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+  }
+  
+  .skillBarText>p {
+    font-size: 0.9rem;
+    font-weight: 200;
+}  
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .personal-info, .skills-info {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-container {
+      padding: 15px;
+    }
+  
+    .info-group p,
+    .education-item p {
+      font-size: 0.9rem;
+    }
+  }
+  

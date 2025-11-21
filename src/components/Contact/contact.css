@@ -1,0 +1,136 @@
+/* General Styling */
+.contact-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-header h1 {
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.1);
+    margin: 0;
+    letter-spacing: 5px;
+  }
+  
+  .contact-header h2 {
+    font-size: 3rem;
+    color: #fff;
+    margin: 0;
+    margin-top: -40px;
+  }
+  
+  .highlight {
+    color: yellow;
+  }
+  
+  .contact-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1000px;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  
+  /* Contact Information Section */
+  .contact-info {
+    flex: 1;
+    max-width: 300px;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .contact-info h3 {
+    font-size: 18px;
+    color: yellow;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    color: #ccc;
+    line-height: 1.6;
+  }
+  
+  .contact-detail {
+    margin-top: 20px;
+  }
+  
+  .contact-detail .icon {
+    font-size: 18px;
+    color: yellow;
+    margin-right: 8px;
+  }
+  
+  .detail-text {
+    font-size: 14px;
+    color: #ddd;
+  }
+  
+  /* Contact Form Styling */
+  .contact-form {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+  }
+  
+  .input-field, .textarea-field {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #444;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field::placeholder, .textarea-field::placeholder {
+    color: #888;
+  }
+  
+  .input-field:focus, .textarea-field:focus {
+    border-color: yellow;
+  }
+  
+  .textarea-field {
+    height: 150px;
+    resize: none;
+  }
+  
+  .submit-button {
+    background-color: yellow;
+    color: #221919;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: yellow;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-info {
+      max-width: 100%;
+      text-align: center;
+    }
+  
+    .contact-form {
+      width: 100%;
+    }
+  }
+  
