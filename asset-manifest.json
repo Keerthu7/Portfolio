@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.77fbec39.css",
-    "main.js": "/Portfolio/static/js/main.da7b70a2.js",
-    "static/media/image.png": "/Portfolio/static/media/image.b2282fa1f02a7058e4dc.png",
-    "static/media/Keerthana_Resume.pdf": "/Portfolio/static/media/Keerthana_Resume.8421f11c5dc9c89e57fd.pdf",
-    "static/media/portfolio-2.png": "/Portfolio/static/media/portfolio-2.33d06b368b4e6395030e.png",
-    "static/media/portfolio-3.png": "/Portfolio/static/media/portfolio-3.ca4192894d93b08ad3b5.png",
-    "static/media/resume.png": "/Portfolio/static/media/resume.52406a3cb1939cdde2af.png",
-    "static/media/ui-design.png": "/Portfolio/static/media/ui-design.c4acd455fc2040eddcc8.png",
-    "index.html": "/Portfolio/index.html",
-    "main.77fbec39.css.map": "/Portfolio/static/css/main.77fbec39.css.map",
-    "main.da7b70a2.js.map": "/Portfolio/static/js/main.da7b70a2.js.map"
+    "main.css": "/static/css/main.77fbec39.css",
+    "main.js": "/static/js/main.d6252535.js",
+    "static/media/image.png": "/static/media/image.b2282fa1f02a7058e4dc.png",
+    "static/media/Keerthana_Resume.pdf": "/static/media/Keerthana_Resume.8421f11c5dc9c89e57fd.pdf",
+    "static/media/portfolio-2.png": "/static/media/portfolio-2.33d06b368b4e6395030e.png",
+    "static/media/portfolio-3.png": "/static/media/portfolio-3.ca4192894d93b08ad3b5.png",
+    "static/media/resume.png": "/static/media/resume.52406a3cb1939cdde2af.png",
+    "static/media/ui-design.png": "/static/media/ui-design.c4acd455fc2040eddcc8.png",
+    "index.html": "/index.html",
+    "main.77fbec39.css.map": "/static/css/main.77fbec39.css.map",
+    "main.d6252535.js.map": "/static/js/main.d6252535.js.map"
   },
   "entrypoints": [
     "static/css/main.77fbec39.css",
-    "static/js/main.da7b70a2.js"
+    "static/js/main.d6252535.js"
   ]
 }
